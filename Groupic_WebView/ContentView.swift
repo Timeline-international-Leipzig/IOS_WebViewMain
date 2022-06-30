@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        WebView(url: URL(string: "https://groupic.de")).ignoresSafeArea()
+        WebView(url: URL(string: "https://groupic.de"))
+            .preferredColorScheme(.dark)
+            .ignoresSafeArea()
     }
 }

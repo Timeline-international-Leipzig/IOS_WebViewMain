@@ -12,6 +12,7 @@
 		8F637BE0286DF05300D79B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F637BDF286DF05300D79B9B /* Assets.xcassets */; };
 		8F637BE3286DF05300D79B9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F637BE2286DF05300D79B9B /* Preview Assets.xcassets */; };
 		8F637BEA286DF15D00D79B9B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F637BE9286DF15D00D79B9B /* WebView.swift */; };
+		8F637BED286DF6CF00D79B9B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F637BEC286DF6CF00D79B9B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8F637BE2286DF05300D79B9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F637BE9286DF15D00D79B9B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		8F637BEB286DF3F600D79B9B /* Groupic-WebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Groupic-WebView-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8F637BEC286DF6CF00D79B9B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				8F637BDB286DF05000D79B9B /* Groupic_WebViewApp.swift */,
 				8F637BDD286DF05000D79B9B /* ContentView.swift */,
 				8F637BE9286DF15D00D79B9B /* WebView.swift */,
+				8F637BEC286DF6CF00D79B9B /* Extensions.swift */,
 				8F637BDF286DF05300D79B9B /* Assets.xcassets */,
 				8F637BE1286DF05300D79B9B /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 				8F637BEA286DF15D00D79B9B /* WebView.swift in Sources */,
 				8F637BDE286DF05000D79B9B /* ContentView.swift in Sources */,
 				8F637BDC286DF05000D79B9B /* Groupic_WebViewApp.swift in Sources */,
+				8F637BED286DF6CF00D79B9B /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
