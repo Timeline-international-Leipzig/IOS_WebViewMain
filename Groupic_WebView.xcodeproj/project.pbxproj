@@ -11,6 +11,7 @@
 		8F637BDE286DF05000D79B9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F637BDD286DF05000D79B9B /* ContentView.swift */; };
 		8F637BE0286DF05300D79B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F637BDF286DF05300D79B9B /* Assets.xcassets */; };
 		8F637BE3286DF05300D79B9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F637BE2286DF05300D79B9B /* Preview Assets.xcassets */; };
+		8F637BEA286DF15D00D79B9B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F637BE9286DF15D00D79B9B /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		8F637BDD286DF05000D79B9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F637BDF286DF05300D79B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F637BE2286DF05300D79B9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F637BE9286DF15D00D79B9B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		8F637BEB286DF3F600D79B9B /* Groupic-WebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Groupic-WebView-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		8F637BDA286DF05000D79B9B /* Groupic_WebView */ = {
 			isa = PBXGroup;
 			children = (
+				8F637BEB286DF3F600D79B9B /* Groupic-WebView-Info.plist */,
 				8F637BDB286DF05000D79B9B /* Groupic_WebViewApp.swift */,
 				8F637BDD286DF05000D79B9B /* ContentView.swift */,
+				8F637BE9286DF15D00D79B9B /* WebView.swift */,
 				8F637BDF286DF05300D79B9B /* Assets.xcassets */,
 				8F637BE1286DF05300D79B9B /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F637BEA286DF15D00D79B9B /* WebView.swift in Sources */,
 				8F637BDE286DF05000D79B9B /* ContentView.swift in Sources */,
 				8F637BDC286DF05000D79B9B /* Groupic_WebViewApp.swift in Sources */,
 			);
@@ -270,9 +276,9 @@
 				DEVELOPMENT_TEAM = M4HHUVP6SP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Groupic-WebView-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +305,9 @@
 				DEVELOPMENT_TEAM = M4HHUVP6SP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Groupic-WebView-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
